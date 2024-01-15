@@ -14,3 +14,4 @@ For more information on these ontologies and the underlying framework, please vi
 - **TEM_Data_Addition.rdf**: Provides additional RDF graph data derived from Delauney triangulation.
 - **Tensile_Test_Data.rdf**: Contains RDF graph data representing the performed tensile tests.
 - **orowan_mechanism_demo.ipynb**: This is the Orowan correlation Jupyter notebook demonstrator.
+- **demo-orowan_RDF_graph_data**: This is the joint RDF graph.
