@@ -4,7 +4,7 @@ This repository hosts a Jupyter notebook demonstrator that is based on an ontolo
 
 For more information on these ontologies and the underlying framework, please visit:
 - PMDco: [Platform MaterialDigital Core Ontology](https://github.com/materialdigital/core-ontology).
-The publication detailing PMDco can be found here: [PMD Core Ontology: Achieving semantic interoperability in materials science](https://www.sciencedirect.com/science/article/pii/S0264127523010195)
+- The publication detailing PMDco can be found here: [PMD Core Ontology: Achieving semantic interoperability in materials science](https://www.sciencedirect.com/science/article/pii/S0264127523010195)
 - TTO: [Tensile Test Ontology](https://github.com/materialdigital/application-ontologies/tree/main/tensile_test_ontology_TTO)
 - PGO: [Precipitate Geometry Ontology](https://github.com/materialdigital/application-ontologies/tree/main/precipitate_geometry_ontology_PGO)
 
