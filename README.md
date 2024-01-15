@@ -8,5 +8,5 @@ This approach allows for a nuanced exploration and demonstration of the Orowan c
 - **TEM_Data.rdf**: Contains RDF graph data representing the DF-TEM image analysis.
 - **TEM_Data_Addition.rdf**: Provides additional RDF graph data derived from Delauney triangulation.
 - **Tensile_Test_Data.rdf**: Contains RDF graph data representing the performed tensile tests.
-- **orowan_mechanism_demo.ipynb**: This is the Orowan correlation Jupyter notebook utilizing PMDco, TTO, and PGO.
+- **orowan_mechanism_demo.ipynb**: This is the Orowan correlation Jupyter notebook demonstrator.
 
