@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:pmdco="https://w3id.org/pmd/co/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncc4409da7be5436e9840d935dd2ce41d">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">180</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">307.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Naf44d0961e01469d8d95f0b8033c2998"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N0430a116a3424037a26622f5846c4ae8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR518zl4</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 15 kh @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">222</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR4RTd2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8760.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">360.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Nb7c56c2446d044e881e504c668009369"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N681c020f5fb54c349ebdde5f3238c2d1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">233</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N49855d55f4c64b03a1d3443929618acf"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="Nff8549dee94f48b9a65e761b50c74e78"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">236</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1016zl2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N0ae1390288a84e0da196d9bcd7da723d"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N565ba0972eff465ca2108b00e595dbed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N1f44e77095504a3cb664094739072cc6"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="Nf3b0ebeb7bd34e029f8250f9a2b4f557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0497457f356043ca863f420644d75efa">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">246</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Ncd36845d8aad40aaa1a5e8de45833499"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp02"/>
+    <pmdco:executedBy rdf:nodeID="N791277af684042399c70434cc449d32b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR516zl3</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">365</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7c56c2446d044e881e504c668009369">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N608ca47264744cf38a78852d00a29a33"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp02"/>
+    <pmdco:executedBy rdf:nodeID="Ndd7c2629ebc5469b9dc2965a5e8c92fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc26d0e3bf55e4de2ba2c392f9f73c14d">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">362.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://w3id.org/pmd/co/"/>
+    <owl:imports rdf:resource="https://w3id.org/pmd/tto/"/>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-7094-5371"/>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-3717-7104"/>
+    <dc:creator rdf:resource="https://orcid.org/0000-0001-7192-7143"/>
+    <dc:creator rdf:resource="https://orcid.org/0000-0003-4971-3645"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tensile Test data Orowan example</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N0497457f356043ca863f420644d75efa"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp02"/>
+    <pmdco:executedBy rdf:nodeID="Ncc4409da7be5436e9840d935dd2ce41d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N15e94e04bd65410bb9d9988b68b5c80d"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR9RTzl1_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N683ec8c757724b1689be09d17626b816"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">263</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1116zl2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">306</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 15 kh @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR4RTd2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N9218047761c841519f11e5447520edaf"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N4afd0f074e9d4a46a9bbcec7a7117a63"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Ncaa6c8534b1d4af68efc644fde7b3956"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N00eaef18471b408184112283bd17fae1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR519zl8</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR2RTd3_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR9RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">330.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR516zl3_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">280</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1116zl2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N88ea50b932be42e5853b4d0fb320a58e">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR8RTzl1_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1RTd6_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0430a116a3424037a26622f5846c4ae8">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR10RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">196</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf2c4ca100fcc4ab29f92177a780afc97">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR518zl4_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">226</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Na3550bebe40b49e8b15b7ef2540e22f7"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="Neb4446f902f8422a9f2ed7b8bace3d87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">341</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Na04661e9063b4e42ac5da6267d443af3"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="Nf0098085e8704752ad24c0d81e32d23a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">279</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 25 kh @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp02"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 25 kh @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR2RTd3</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">245</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 1 kh @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR2RTd3</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR11RTzl1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">428.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">80</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf44d0961e01469d8d95f0b8033c2998">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Nf2c4ca100fcc4ab29f92177a780afc97"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2_testpiece/tp_ABR1116zl2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR1116zl2_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N88ea50b932be42e5853b4d0fb320a58e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp02"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR7RTd1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR5RTzl1_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Nca4aedf8e885431eb098e16e124fa5d2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR519zl8_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="N09de9fbbbcbe4b0d9d7b2184e4341a91"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR516zl3_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR10RTzl1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd36845d8aad40aaa1a5e8de45833499">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">350.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">342.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">131</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR11RTzl1_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Ncbfaf25bb8234e0eb5ab4de64f4e40ed"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp02"/>
+    <pmdco:executedBy rdf:nodeID="N70ba0ad16d714423beb0ccf01019abe8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">122</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">292</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR1016zl2_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR9RTzl1_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="N7a5082138c0341d7b829c2f2e3411493"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_agingTime"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_agingTemperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp02"/>
+    <pmdco:executedBy rdf:nodeID="N9f1606102be948efbff5528ae7c4f416"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8760.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 25 kh @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR11RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">321</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">278</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR7RTd1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_testpiece/tp_ABR9RTzl1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">313</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR9RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">292</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR58zl2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR819zl2_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">216.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">324</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR1016zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR10RTzl1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR819zl2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">288</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N791277af684042399c70434cc449d32b">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR5RTzl1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">250</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1RTd6</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR2RTd3_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">168</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR8RTzl1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR10RTzl1_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_process">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTest"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_temperature"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_setTemperature"/>
+    <pmdco:characteristic rdf:nodeID="Nc26d0e3bf55e4de2ba2c392f9f73c14d"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_materialStateName"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2"/>
+    <pmdco:input rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_strainRate"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_testpiece/tp_ABR58zl2_testpiece_afterTest_2"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_rp01"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_rp02"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/tte/ABR58zl2_tensileStrength"/>
+    <pmdco:executedBy rdf:nodeID="Nc56d6e20913046c686d21c5f8abe9d3a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">346.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR519zl8</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0002-7094-5371">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markus Schilling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR919zl2_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_testpiece/tp_ABR8RTzl1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N608ca47264744cf38a78852d00a29a33">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp02"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR519zl8_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR8RTzl1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR919zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">273</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">268.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49855d55f4c64b03a1d3443929618acf">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">183</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR7RTd1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR7RTd1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3550bebe40b49e8b15b7ef2540e22f7">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR10RTzl1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N00eaef18471b408184112283bd17fae1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">340</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">181</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR11RTzl1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">280</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_testpiece/tp_ABR1016zl2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_rp02"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR518zl4_tensileStrength"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR3RTd2_rp02"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR9RTzl1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1016zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR10RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0003-4971-3645">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philipp von Hartrott</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1016zl2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1016zl2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR919zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N09de9fbbbcbe4b0d9d7b2184e4341a91">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1RTd6_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp02">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp02"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">286</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">210.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR5RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb4446f902f8422a9f2ed7b8bace3d87">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">215</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR919zl2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR58zl2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR919zl2_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_temperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/EnvironmentalTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncaa6c8534b1d4af68efc644fde7b3956">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70ba0ad16d714423beb0ccf01019abe8">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1016zl2_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">230</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR518zl4_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">320.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR4RTd2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1116zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR1116zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR919zl2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR5RTzl1_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd7c2629ebc5469b9dc2965a5e8c92fe">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR3RTd2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_testpiece/tp_ABR11RTzl1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">257.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15000.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_testpiece/tp_ABR1RTd6_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR1RTd6_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_testpiece/tp_ABR519zl8_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR518zl4</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR58zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR58zl2_tensileStrength">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileStrength"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">407.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">237</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR3RTd2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR5RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR5RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_testpiece/tp_ABR3RTd2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR519zl8_strainRate">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/StrainRate"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0001</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_testpiece/tp_ABR5RTzl1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR5RTzl1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">267</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncbfaf25bb8234e0eb5ab4de64f4e40ed">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 8760 h @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR518zl4_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N681c020f5fb54c349ebdde5f3238c2d1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1RTd6">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR1RTd6</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR819zl2_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_testpiece/tp_ABR919zl2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR919zl2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f1606102be948efbff5528ae7c4f416">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na04661e9063b4e42ac5da6267d443af3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_agingTime">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTime"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">160.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/HR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 15 kh @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_testpiece/tp_ABR516zl3_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_rp01">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/Rp01"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Measurement"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">264</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/MegaPa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR8RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR8RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3b0ebeb7bd34e029f8250f9a2b4f557">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f44e77095504a3cb664094739072cc6">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp01"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/ABR4RTd2_rp02"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_1"/>
+    <pmdco:composedOf rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 15 kh @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_agingTemperature">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AgingTemperature"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SetPoint"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">190.0</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/DEG_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_testpiece/tp_ABR7RTd1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR7RTd1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR11RTzl1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 25 kh @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR7RTd1_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 160 h @ 350 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR516zl3_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR516zl3_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR9RTzl1_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR9RTzl1_afterTest_1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR3RTd2_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 1 kh @ 160 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc56d6e20913046c686d21c5f8abe9d3a">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR8RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR8RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR3RTd2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR1116zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR1116zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR11RTzl1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR11RTzl1</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR819zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nff8549dee94f48b9a65e761b50c74e78">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR519zl8_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR519zl8_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca4aedf8e885431eb098e16e124fa5d2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N683ec8c757724b1689be09d17626b816">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR58zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR58zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ae1390288a84e0da196d9bcd7da723d">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR516zl3">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR516zl3</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR3RTd2_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPieceName"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tp_ABR3RTd2_afterTest_2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_testpiece/tp_ABR10RTzl1_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR10RTzl1_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_testpiece/tp_ABR2RTd3_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR2RTd3_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0001-7192-7143">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jörg Waitelonis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N565ba0972eff465ca2108b00e595dbed">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR819zl2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR819zl2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR2RTd3_materialStateName">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/MaterialDesignation"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T61 + 8760 h @ 190 °C</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/ABR4RTd2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/ProcessIdentifier"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABR4RTd2</pmdco:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_testpiece/tp_ABR819zl2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR819zl2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_testpiece/tp_ABR4RTd2_testpiece_afterTest_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR4RTd2_afterTest_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N15e94e04bd65410bb9d9988b68b5c80d">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4afd0f074e9d4a46a9bbcec7a7117a63">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0098085e8704752ad24c0d81e32d23a">
+    <rdf:type rdf:resource="https://w3id.org/pmd/tto/TensileTestingMachine"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a5082138c0341d7b829c2f2e3411493">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9218047761c841519f11e5447520edaf">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Operator"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/Metadata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_testpiece/tp_ABR518zl4_testpiece_afterTest_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/TestPiece"/>
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/tte/testpiece_name/tp_ABR518zl4_afterTest_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://orcid.org/0000-0002-3717-7104">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bernd Bayerlein</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
