@@ -4,6 +4,64 @@
    xmlns:prov="http://www.w3.org/ns/prov#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.34158763859355</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103.87547885940401</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.7293030439233</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.4454390596842</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.43270438123096</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_2">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
@@ -12,79 +70,43 @@
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">42.50580885187929</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.24486995243703</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91.72058799098762</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.38988843210305</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1">
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.02100595752326</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.84307029610301</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.01071553074257</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.90437416499775</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.96773439919322</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.26532889980699</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">68.8960755835374</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.21044140661994</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_2">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.49893888212077</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.68380801475503</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.3071496355295</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
@@ -94,134 +116,61 @@
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2">
     <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.03442601930085</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.5494737610647</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.76859298149803</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.54230416718923</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_1"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61_2">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
     <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.01539528402338</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
-    <prov:hadPrimarySource>https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb</prov:hadPrimarySource>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.45997997788656</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26.773351452610477</pmdco:value>
-    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">64.81300783469318</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29.945268994044486</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59.2209539839574</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.51776662379298</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61_2">
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
     <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
-    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.281004020101552</pmdco:value>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.01561519730541</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59.80120912254928</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.61411585962179</pmdco:value>
     <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
     <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1">
-    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
-    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2">
     <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2"/>
@@ -231,47 +180,98 @@
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
     <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201002%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1">
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
-    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_2"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1">
     <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
     <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
     <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61_2">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
-    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1"/>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.62779016150279</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_2">
     <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_2"/>
   </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.88124404042732</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/precip_distance/T61_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/pgo/AveragePrecipitateDistance"/>
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/SecondaryData"/>
+    <pmdco:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31.368277996858215</pmdco:value>
+    <pmdco:unit rdf:resource="http://qudt.org/vocab/unit/NanoM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20400%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61_2">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_2"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1">
     <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%20250%20h%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2088%20h%20%40%20190%20%C2%B0C%2C%20181%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201820%20h%20%40%20190%20%C2%B0C%2C%20128%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%201%20kh%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <prov:hadPrimarySource>https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb</prov:hadPrimarySource>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%208760%20h%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%2025%20kh%20%40%20190%20%C2%B0C_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/analysing_process/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1">
+    <rdf:type rdf:resource="https://w3id.org/pmd/co/AnalysingProcess"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/materialdigital/demo-orowan/blob/main/orowan_mechanism_demo.ipynb"/>
+    <pmdco:output rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%205%20kh%20%40%20190%20%C2%B0C_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%204172%20h%20%40%20190%20%C2%B0C%2C%2079%20MPa_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/pmd/resource/pge/specimen/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1">
+    <pmdco:characteristic rdf:resource="https://w3id.org/pmd/resource/pge/precip_distance/T61%20%2B%202500%20h%20%40%20190%20%C2%B0C_1"/>
   </rdf:Description>
 </rdf:RDF>
